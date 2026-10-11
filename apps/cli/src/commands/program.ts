@@ -105,8 +105,8 @@ export function addRootOptions(cmd: Command): Command {
 }
 
 export function createProgram(): Command {
-	const program = new Command("cline")
-		.description("Cline CLI - AI coding assistant in your terminal")
+	const program = new Command("severin")
+		.description("Severin CLI - AI coding assistant in your terminal (independent fork of Cline)")
 		.version(version, "-V, --version", "Output the version number")
 		.exitOverride() // don't call process.exit
 		.configureOutput({

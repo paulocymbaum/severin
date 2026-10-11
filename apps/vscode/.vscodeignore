@@ -7,6 +7,13 @@
 .claude/**
 .cline/**
 .codex/**
+# Same, but collected from the monorepo ROOT by vsce workspace detection (paths come in as ../-prefixed)
+../../.agents/**
+../../.claude/**
+../../.cline/**
+../../.codex/**
+../../.github/**
+../../.husky/**
 CLAUDE.local.md
 out/
 dist-standalone/

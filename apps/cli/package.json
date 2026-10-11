@@ -1,6 +1,6 @@
 {
 	"name": "@cline/cli",
-	"displayName": "cline",
+	"displayName": "severin",
 	"version": "3.0.70",
 	"description": "Autonomous coding agent CLI - capable of creating/editing files, running commands, using the browser, and more",
 	"type": "module",
@@ -9,10 +9,11 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/cline/cline.git",
+		"url": "git+https://github.com/paulocymbaum/severin.git",
 		"directory": "apps/cli"
 	},
 	"keywords": [
+		"severin",
 		"cline",
 		"claude",
 		"dev",
@@ -28,14 +29,15 @@
 		"cli"
 	],
 	"author": {
-		"name": "Cline Bot Inc."
+		"name": "Cline Bot Inc. (original author), fork maintained by paulocymbaum"
 	},
 	"license": "Apache-2.0",
-	"homepage": "https://cline.bot",
+	"homepage": "https://github.com/paulocymbaum/severin",
 	"bugs": {
-		"url": "https://github.com/cline/cline/issues"
+		"url": "https://github.com/paulocymbaum/severin/issues"
 	},
 	"bin": {
+		"severin": "src/index.ts",
 		"cline": "src/index.ts"
 	},
 	"engines": {
